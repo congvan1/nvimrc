@@ -1,0 +1,24 @@
+" ============================================================================
+" Netrw Directory Listing                                        (netrw v173)
+"   /Users/van/.config/nvim/after/plugin
+"   Sorted by      name
+"   Sort sequence: [\/]$,\<core\%(\.\d\+\)\=\>,\.h$,\.c$,\.cpp$,\~\=\*$,*,\.o$,\.obj$,\.info$,\.swp$,\.bak$,\~$
+"   Hiding:        ^\./$,^\../$,^\..*$
+"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:special
+" ==============================================================================
+../
+nvim/
+| after/
+| | plugin/
+| | | fugitive.lua
+| | | harpoon.lua
+| | | lsp.lua
+| | | telescope.lua
+| | | toggleTerm.lua
+| | | treesitter.lua
+| | | undotree.lua
+| lua/
+| plugin/
+| NetrwTreeListing
+| README.md
+| init.lua

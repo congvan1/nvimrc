@@ -14,10 +14,10 @@ return require('packer').startup(function(use)
   }
 
   use({
-	  'morhetz/gruvbox',
-	  as = 'morhetz-gruvbox',
+	  'Mofiqul/dracula.nvim',
+	  as = 'dracula',
 	  config = function()
-		  vim.cmd('colorscheme gruvbox')
+		  vim.cmd('colorscheme dracula')
 	  end
   })
 
@@ -42,10 +42,14 @@ return require('packer').startup(function(use)
 		  {"hrsh7th/cmp-nvim-lua"},
 		  {"saadparwaiz1/cmp_luasnip"},
 
-		  -- Snippets
-		  {"L3MON4D3/LuaSnip"},
-		  {"rafamadriz/friendly-snippets"},
-	  }
+          -- Snippets
+          {"L3MON4D3/LuaSnip"},
+          {"rafamadriz/friendly-snippets"},
+      }
   }
+  
+  use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+      require("toggleterm").setup()
+  end}
 
 end)  
