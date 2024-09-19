@@ -66,3 +66,9 @@ vim.keymap.set('t', '<C-w>', [[<C-\><C-n><C-w>]])
 
 -- Clear terminal
 vim.keymap.set('t', '<C-l>', [[clear<CR>]])
+
+-- Don't print anything like ";2u" when press shift+space 
+vim.keymap.set('t', '<S-Space>', '<Nop>', { noremap = true, silent = true })
+vim.keymap.set('t', '<S-BS>', '<Nop>', { noremap = true, silent = true })
+vim.keymap.set('t', '<S-CR>', '<Nop>', { noremap = true, silent = true })
+
