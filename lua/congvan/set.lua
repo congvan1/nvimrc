@@ -28,7 +28,6 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
-
 -- Hide dotfiles in netrw
 vim.g.netrw_liststyle = 3       -- Use tree-style listing
 vim.g.netrw_hide = 1            -- Enable hiding of files
